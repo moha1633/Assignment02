@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    
+}
+
+header,footer {
+    background-color: #09120e;
+    color: rgb(20, 174, 115);
+    border-radius: 4em;
+    
+}
+
+p{
+    margin-bottom: 0,5rem;
+    box-sizing: border-box;
+
+  
+}
+main {
+    flex-grow: 1;
+}
+header {
+    padding: 10%;
+    text-align: center;
+}
+footer {
+    padding: 8%;
+}
+.content {
+    background-color: #f6b7b7;
+    border-radius: 7em;
+    margin: 5%;
+    padding: 5%;
+}
+
+
